@@ -109,10 +109,6 @@ saveButton.addEventListener('click', () => {
 function saveToLocalStorage () {
     localStorage.setItem('todoList', JSON.stringify(todoList));
     let newTodo = inputElement.value.trim();
-    if (newTodo === '') {
-        alert('Please Enter A Task...');
-        return;
-    }
 }
 
 
