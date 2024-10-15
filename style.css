@@ -1,0 +1,105 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading{
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+    color: rgb(6, 128, 25);
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 300px;
+    border-radius: 6px;
+    height: 40px;
+    border-width: 2px;
+    border-color: rgb(6, 128, 25);
+    padding: 10px;
+    color: rgb(6, 128, 25);
+    margin: 5px;
+    font-size: 20px;
+    outline-color: rgb(6, 128, 25);
+}
+
+.button{
+    background-color: rgb(6, 128, 25);
+    margin: 5px;
+    padding: 3px;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px solid ;
+    border-radius: 5px;
+}
+
+.list{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.list-item{
+    font-family: "Roboto";
+    width: 390px;
+    font-size: 20px;
+    color:rgb(6, 128, 25);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px, 2px, 4px, 4px, grey;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    padding: 12px;
+    border: solid 2px rgb(6, 128, 25);
+    border-radius: 5px;
+}
+
+.status{
+    height: 20px;
+    width: 20px;
+    margin:5px;
+}
+
+.label-text{
+    margin:5px;
+    width: 200px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.note-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto';
+    color: red;
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+
+
